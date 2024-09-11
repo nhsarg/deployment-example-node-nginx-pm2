@@ -48,6 +48,6 @@ app.delete('/api/users/:id', (req, res) => {
   res.json(deletedUser[0]);
 });
 
-app.listen(port, '127.0.0.1',() => {
+app.listen(port, '159.223.117.163',() => {
   console.log(`Server running at http://localhost:${port}`);
 });
