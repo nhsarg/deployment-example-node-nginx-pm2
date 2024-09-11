@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "express": "^4.20.0",
+    "pm2": "^5.4.2"
+  },
+  "scripts": {
+    "start:production": "pm2 start app.js",
+    "stop:production": "pm2 stop app.js",
+    "logs:production": "pm2 logs app",
+    "status:production": "pm2 status app",
+    "status:all": "pm2 status"
+  }
+}
